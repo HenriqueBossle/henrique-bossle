@@ -29,7 +29,7 @@ const projects = [
         title: "Ícones do Tempo",
         description: "Site oficial da escritora Evanise Gonçalves Bossle.",
         image: evaniseSite,
-        fullDescription: "Site da escritora Evanise Gonçalves Bossle, desenvolvido com Laravel no back-end e React no front-end, com interface moderna e responsiva. Possui CRUD para gerenciamento de livros, poemas, contos e crônicas, com autenticação de administrador único. Front-end e back-end hospedados na Locaweb, com domínio próprio.",
+        fullDescription: "Site da escritora Evanise Gonçalves Bossle, desenvolvido com Laravel no back-end e React no front-end, com interface moderna e responsiva. Possui CRUD para gerenciamento de livros, poemas, contos e crônicas, com autenticação de administrador único. Front-end e back-end hospedados na Locaweb, com domínio próprio da Registro.br.",
         techs: ["Laravel", "React", "LocaWeb", "Cloudinary"],
         deploy: "https://iconesdotempo.com.br"
     },
