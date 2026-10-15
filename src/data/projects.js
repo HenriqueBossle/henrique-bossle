@@ -12,6 +12,7 @@ import comicvault from "../assets/img/comicvault.png"
 import clienteObra3 from "../assets/img/clienteObra3.png"
 import summarizeText from "../assets/img/textsummary.png"
 import chatImage from "../assets/img/chat.png"
+import evaniseSite from "../assets/img/evanisesite.png"
 
 const projects = [
     /*{
@@ -25,15 +26,24 @@ const projects = [
     },*/
     {
         id: 1,
+        title: "Ícones do Tempo",
+        description: "Site oficial da escritora Evanise Gonçalves Bossle.",
+        image: chatImage,
+        fullDescription: "Site da escritora Evanise Gonçalves Bossle, desenvolvido com Laravel no back-end e React no front-end, com interface moderna e responsiva. Possui CRUD para gerenciamento de livros, poemas, contos e crônicas, com autenticação de administrador único. Front-end e back-end hospedados na Locaweb, com domínio próprio.",
+        techs: ["Laravel", "React", "LocaWeb", "Cloudinary"],
+        deploy: "https://iconesdotempo.com.br"
+    },
+    {
+        id: 2,
         title: "Nexus Chat",
         description: "Sistema de chat de conversa em tempo real com PHP puro e JavaScript.",
         image: chatImage,
-        fullDescription: "Aplicação web de chat em tempo real desenvolvida com PHP, JavaScript, MySQL e AJAX, criada inicialmente como um projeto de estudo a partir de um mini-curso do youtuber Error Solution e posteriormente expandida com diversas correções, melhorias e adaptações próprias. O projeto foi utilizado como forma de aprofundar conhecimentos em desenvolvimento web, principalmente em PHP, manipulação de sessões, banco de dados, requisições assíncronas, organização de código e comunicação entre frontend e backend..",
+        fullDescription: "Aplicação web de chat em tempo real desenvolvida com PHP, JavaScript, MySQL e AJAX, criada inicialmente como um projeto de estudo a partir de um mini-curso do youtuber Error Solution e posteriormente expandida com diversas correções, melhorias e adaptações próprias. O projeto foi utilizado como forma de aprofundar conhecimentos em desenvolvimento web, principalmente em PHP, manipulação de sessões, banco de dados, requisições assíncronas, organização de código e comunicação entre frontend e backend.",
         techs: ["PHP", "JavaScript", "MySQL", "AJAX"],
         github: "https://github.com/HenriqueBossle/php-realtime-chat"
     },
     {
-        id: 2,
+        id: 3,
         title: "ClienteObra",
         description: "Terceiro sistema para gestão de obras, desta vez com deploy completo.",
         image: clienteObra3,
@@ -43,7 +53,7 @@ const projects = [
         deploy: "https://cliente-obra-api2-frontend.vercel.app/"
     },
     {
-        id: 3,
+        id: 4,
         title: "Comic Vault",
         description: "Sistema para gerenciar minhas HQs de super-herois feito com Ruby On Rails.",
         image: comicvault,
@@ -72,7 +82,7 @@ const projects = [
         github: "https://github.com/HenriqueBossle/my-first-ruby-crud/tree/main",
     },*/
     {
-        id: 4,
+        id: 5,
         title: "Characters Database",
         description: "Aplicação web de gerenciamento de personagens, feita com Laravel e React JS.",
         image: characters,
@@ -82,7 +92,7 @@ const projects = [
         deploy: "https://react-characters-front-end.vercel.app/"
     },
     {
-        id: 5,
+        id: 6,
         title: "Cliente Obra",
         description: "Sistema de gerenciamento de obras de construção civil feito com Laravel e estilizado com Tailwind CSS.",
         image: clienteObra,
@@ -93,7 +103,7 @@ const projects = [
 
     },
     {
-        id: 6,
+        id: 7,
         title: "Fiction Grid",
         description: "Outro sistema de gerenciamento de personagens feito somente com Laravel.",
         image: fictionGrid,
@@ -103,7 +113,7 @@ const projects = [
         deploy: "https://fiction-grid-1.onrender.com/"
     },
     {
-        id: 7,
+        id: 8,
         title: "Meu primeiro portfólio",
         description: "Portfólio feito com HTML e Tailwind CSS.",
         image: portifolio,
@@ -113,7 +123,7 @@ const projects = [
         deploy: "https://meu-portifolio-html-kappa.vercel.app/"
     },
     {
-        id: 8,
+        id: 9,
         title: "HQ Hero",
         description: "Aplicação web em Laravel sobre HQs de super-heróis.",
         image: hqhero,
@@ -122,7 +132,7 @@ const projects = [
         github: "https://github.com/HenriqueBossle/gerenciador-de-comics"
     },
     {
-        id: 9,
+        id: 10,
         title: "Gerenciador de Obras",
         description: "Meu primeiro sistema de gestão de clientes de construção civil.",
         image: gerenciador,
