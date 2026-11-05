@@ -13,6 +13,7 @@ import clienteObra3 from "../assets/img/clienteObra3.png"
 import summarizeText from "../assets/img/textsummary.png"
 import chatImage from "../assets/img/chat.png"
 import evaniseSite from "../assets/img/evanisesite.png"
+import scriptAi from "../assets/img/scriptai.png"
 
 const projects = [
     /*{
@@ -26,6 +27,15 @@ const projects = [
     },*/
     {
         id: 1,
+        title: "Script AI",
+        description: "IA para gereção de roteiros para vídeos.",
+        image: scriptAi,
+        fullDescription: "Aplicação que automatiza a transformação de ideias em roteiros de vídeo personalizados. Na stack, o back-end utiliza uma API REST em Laravel com processamento assíncrono (Queues e Jobs), integrando o framework Neuron AI e a API da Groq para gerenciar os agentes de inteligência artificial, enquanto o front-end emprega React para a interface e gerenciamento dos roteiros.",
+        techs: ["Laravel", "React", "NeuronAI", "Neon DB"],
+        github: "https://github.com/HenriqueBossle/ai-proj-script-front-end"
+    },
+    {
+        id: 2,
         title: "Ícones do Tempo",
         description: "Site oficial da escritora Evanise Gonçalves Bossle.",
         image: evaniseSite,
@@ -34,7 +44,7 @@ const projects = [
         deploy: "https://iconesdotempo.com.br"
     },
     {
-        id: 2,
+        id: 3,
         title: "Nexus Chat",
         description: "Sistema de chat de conversa em tempo real com PHP puro e JavaScript.",
         image: chatImage,
@@ -43,7 +53,7 @@ const projects = [
         github: "https://github.com/HenriqueBossle/php-realtime-chat"
     },
     {
-        id: 3,
+        id: 4,
         title: "ClienteObra",
         description: "Terceiro sistema para gestão de obras, desta vez com deploy completo.",
         image: clienteObra3,
@@ -53,7 +63,7 @@ const projects = [
         deploy: "https://cliente-obra-api2-frontend.vercel.app/"
     },
     {
-        id: 4,
+        id: 5,
         title: "Comic Vault",
         description: "Sistema para gerenciar minhas HQs de super-herois feito com Ruby On Rails.",
         image: comicvault,
@@ -82,7 +92,7 @@ const projects = [
         github: "https://github.com/HenriqueBossle/my-first-ruby-crud/tree/main",
     },*/
     {
-        id: 5,
+        id: 6,
         title: "Characters Database",
         description: "Aplicação web de gerenciamento de personagens, feita com Laravel e React JS.",
         image: characters,
@@ -92,7 +102,7 @@ const projects = [
         deploy: "https://react-characters-front-end.vercel.app/"
     },
     {
-        id: 6,
+        id: 7,
         title: "Cliente Obra",
         description: "Sistema de gerenciamento de obras de construção civil feito com Laravel e estilizado com Tailwind CSS.",
         image: clienteObra,
@@ -103,7 +113,7 @@ const projects = [
 
     },
     {
-        id: 7,
+        id: 8,
         title: "Fiction Grid",
         description: "Outro sistema de gerenciamento de personagens feito somente com Laravel.",
         image: fictionGrid,
@@ -113,7 +123,7 @@ const projects = [
         deploy: "https://fiction-grid-1.onrender.com/"
     },
     {
-        id: 8,
+        id: 9,
         title: "Meu primeiro portfólio",
         description: "Portfólio feito com HTML e Tailwind CSS.",
         image: portifolio,
@@ -123,7 +133,7 @@ const projects = [
         deploy: "https://meu-portifolio-html-kappa.vercel.app/"
     },
     {
-        id: 9,
+        id: 10,
         title: "HQ Hero",
         description: "Aplicação web em Laravel sobre HQs de super-heróis.",
         image: hqhero,
@@ -132,7 +142,7 @@ const projects = [
         github: "https://github.com/HenriqueBossle/gerenciador-de-comics"
     },
     {
-        id: 10,
+        id: 11,
         title: "Gerenciador de Obras",
         description: "Meu primeiro sistema de gestão de clientes de construção civil.",
         image: gerenciador,

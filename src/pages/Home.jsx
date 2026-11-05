@@ -153,7 +153,7 @@ function Home() {
               <a className="btn btn--secondary" href="https://github.com/HenriqueBossle" target="_blank" rel="noreferrer">
                 GitHub
               </a>
-              <a className="btn btn--outline" href="../Henrique-Bossle-Desenvolvedor-Full-Stack-curriculo.pdf" target="_blank">
+              <a className="btn btn--outline" href="../Henrique-Bossle-Desenvolvedor-Full-Stack-profile.pdf" target="_blank">
                 Meu Curriculo 
               </a>
             </div>
